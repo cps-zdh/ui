@@ -71,6 +71,16 @@ public class TGHomePage extends BasePage{
 	 * 用户名密码等，后期从外部读入
 	 */
 	private String[] payPwd = {"1","2","1","2","1","2"};
+	/**
+	 * 积分商城左侧列表
+	 */
+	private String zxjs="/html/body/div[3]/div[1]/div[2]/div/div[1]/h3/a";
+	private String bzfl="/html/body/div[3]/div[1]/div[2]/div/div[2]/h3/a";
+	private String fl="/html/body/div[3]/div[1]/div[2]/div/div[3]/h3/a";
+	private String shhl="/html/body/div[3]/div[1]/div[2]/div/div[4]/h3/a";
+	private String scwz="/html/body/div[3]/div[1]/div[2]/div/div[5]/h3/a";
+	private String czkj="/html/body/div[3]/div[1]/div[2]/div/div[6]/h3/a";
+
 	
 	/**
 	 * 去再下一单的地方
@@ -134,7 +144,73 @@ public class TGHomePage extends BasePage{
 	   * 去积分商城页面
 	   */
 	  public void toJFSC() {
+		LoggerUtil.info("访问积分商城");
+		open("http://192.168.10.202/IntegralMall/index.html");
 	    click(getElement(jfscMenu, "x"));
+	  }
+	  
+	  /**
+	   * 选择积分商城产品分类(全部)
+	 * @throws InterruptedException 
+	   */
+	  public void selectClassOfAll() throws InterruptedException {
+		  	LoggerUtil.info("点击标签下的全部");
+		    sleep(2000);
+		    click(getElement(allProduct, "x"));
+	  }
+	  /**
+	   * 选择积分商城产品分类(纸箱集市)
+	 * @throws InterruptedException 
+	   */
+	  public void selectClassOfZXJS() throws InterruptedException {
+		  	LoggerUtil.info("点击左侧标签下的纸箱集市");
+		    sleep(2000);
+		    click(getElement(zxjs, "x"));
+	  }
+	  /**
+	   * 选择积分商城产品分类(包装辅料)
+	 * @throws InterruptedException 
+	   */
+	  public void selectClassOfBZFL() throws InterruptedException {
+		  	LoggerUtil.info("点击左侧标签下的包装辅料");
+		    sleep(2000);
+		    click(getElement(bzfl, "x"));
+	  }
+	  /**
+	   * 选择积分商城产品分类(辅料)
+	 * @throws InterruptedException 
+	   */
+	  public void selectClassOfFL() throws InterruptedException {
+		  	LoggerUtil.info("点击左侧标签下的辅料");
+		    sleep(2000);
+		    click(getElement(fl, "x"));
+	  }
+	  /**
+	   * 选择积分商城产品分类(生活好礼)
+	 * @throws InterruptedException 
+	   */
+	  public void selectClassOfSSHL() throws InterruptedException {
+		  	LoggerUtil.info("点击左侧标签下的生活好礼");
+		    sleep(2000);
+		    click(getElement(shhl, "x"));
+	  }
+	  /**
+	   * 选择积分商城产品分类(生产物资)
+	 * @throws InterruptedException 
+	   */
+	  public void selectClassOfSCWZ() throws InterruptedException {
+		  	LoggerUtil.info("点击左侧标签下的生产物资");
+		    sleep(2000);
+		    click(getElement(scwz, "x"));
+	  }
+	  /**
+	   * 选择积分商城产品分类(充值卡券)
+	 * @throws InterruptedException 
+	   */
+	  public void selectClassOfCZKJ() throws InterruptedException {
+		  	LoggerUtil.info("点击左侧标签下的充值卡券");
+		    sleep(2000);
+		    click(getElement(czkj, "x"));
 	  }
 	  /**
 	   * 积分商城下单
@@ -142,9 +218,7 @@ public class TGHomePage extends BasePage{
 	   */
 	  
 	  public void buyOrder() throws InterruptedException {
-	    LoggerUtil.info("点击标签下的全部");
-	    sleep(2000);
-	    click(getElement(allProduct, "x"));
+		LoggerUtil.info("积分商城开始下单...");
 	    sleep(2000);
 	    LoggerUtil.info("点击第一个产品");
 	    click(getElement(firstProduct, "x"));
@@ -161,8 +235,9 @@ public class TGHomePage extends BasePage{
 	    sendKeys(getSortsElement(pwdInputs, "x"),payPwd );
 	    LoggerUtil.info("点击确定按钮");
 	    click(getElement(quedingButton, "x"));
-	    sleep(5000);
+	    sleep(10000);
 	    AssertUtil.assertEquals(getElement(orderMsg, "x").getText(), "支付成功", "");
+	    
 	  }
 	public WebElement getZbtg_btn() {
 		return getElement(zbtg_btn, "x");
