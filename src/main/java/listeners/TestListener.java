@@ -69,6 +69,7 @@ public class TestListener implements ITestListener{
 				}
 			}
 		}
+		//注释不符
 	/*	TestListener.count = context.getAllTestMethods().length;
 		System.out.println("onfinsh总数----------"+TestListener.count);
 		TestListener.failCount = context.getFailedTests().getAllResults().size();

@@ -120,7 +120,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
     }
     
     /**
-     * 发送邮件信息
+     * 发送邮件信息调用地方改动
      * @param successCount
      * @param failCount
      * @param skipCount
