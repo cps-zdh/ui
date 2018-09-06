@@ -77,7 +77,7 @@ public class TestListener implements ITestListener{
 		System.out.println("onfinsh成功---------"+TestListener.successCount);
 		TestListener.skipCount = context.getSkippedTests().getAllResults().size();
 		System.out.println("onfinsh略过----------"+TestListener.skipCount);
-		
+		xx
 		*/
 		
 	}
