@@ -22947,4 +22947,260 @@ Session ID: cad5c7e14e89a78f1084dd08f4512160
 2018-09-06 14:08:45 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (828cdf55ad17a012cafa1fc805ff799e)] -> xpath: /html/body/div[3]/div/div[3]/button[2]]
 2018-09-06 14:08:45 [common.LoggerUtil]-[INFO] 确认审核
 2018-09-06 14:08:46 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
+<<<<<<< HEAD
+>>>>>>> origin/uifss
+=======
+2018-09-07 16:04:56 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-07 16:04:59 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.202/group/grouponHome.html
+2018-09-07 16:05:00 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-07 16:05:00 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:02 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[1]
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[1]]
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/login.html?redirectURL=http%3A%2F%2F192.168.10.202%2Fgroup%2FgrouponHome.html
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/login.html?redirectURL=http%3A%2F%2F192.168.10.202%2Fgroup%2FgrouponHome.html与期望值：http://192.168.10.202/login.html?redirectURL=http%3A%2F%2F192.168.10.202%2Fgroup%2FgrouponHome.html相同
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 元素赋值内容：18868196139，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="username"]]
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="password"]]
+2018-09-07 16:05:09 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-button"]
+2018-09-07 16:05:14 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="login-button"]]
+2018-09-07 16:05:14 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:16 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[1]
+2018-09-07 16:05:16 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：fsss果实企业与期望值：fsss果实企业相同
+2018-09-07 16:05:16 [common.LoggerUtil]-[INFO] 成功登录团购平台，用户名：18868196139
+2018-09-07 16:05:16 [common.LoggerUtil]-[INFO] -------ui test begin-------
+2018-09-07 16:05:16 [common.LoggerUtil]-[INFO] 团购下单脚本开始
+2018-09-07 16:05:17 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]
+2018-09-07 16:05:22 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]]
+2018-09-07 16:05:22 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-07 16:05:22 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/personalCenter.html
+2018-09-07 16:05:22 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html与期望值：http://192.168.10.202/personalCenter.html相同
+2018-09-07 16:05:22 [common.LoggerUtil]-[INFO] 进入我的中心页面
+2018-09-07 16:05:22 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a
+2018-09-07 16:05:22 [common.LoggerUtil]-[ERROR] 元素点击出现异常：
+element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP5C', ip: '172.16.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir14756_15022}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 598917f17db4ff85f8b4de535f44d5ec
+2018-09-07 16:05:22 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-07 16:05:23 [common.LoggerUtil]-[INFO] 本地失败截图tuangou_xiadan_0907160522.png已保存
+2018-09-07 16:05:23 [common.LoggerUtil]-[INFO] >>>>用例失败，开始重试第1次
+2018-09-07 16:05:23 [common.LoggerUtil]-[INFO] -------ui test begin-------
+2018-09-07 16:05:23 [common.LoggerUtil]-[INFO] 团购下单脚本开始
+2018-09-07 16:05:23 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]]
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/personalCenter.html
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html与期望值：http://192.168.10.202/personalCenter.html相同
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 进入我的中心页面
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a]
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/personalCenter.html#!paperboardOrder
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html#!paperboardOrder与期望值：http://192.168.10.202/personalCenter.html#!paperboardOrder相同
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 进入纸板团购订单页面
+2018-09-07 16:05:24 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:26 [common.LoggerUtil]-[INFO] 进入纸板团购全部订单页面
+2018-09-07 16:05:26 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:28 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]
+2018-09-07 16:05:28 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]]
+2018-09-07 16:05:28 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:30 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:32 [common.LoggerUtil]-[INFO] 进入订单详情页面
+2018-09-07 16:05:32 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/h2/span
+2018-09-07 16:05:33 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：方舒一日游与期望值：方舒一日游相同
+2018-09-07 16:05:33 [common.LoggerUtil]-[INFO] 进入再下一单界面，产品名称是<方舒一日游>
+2018-09-07 16:05:33 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div[4]/a[2]
+2018-09-07 16:05:33 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[2]/div[4]/a[2]]
+2018-09-07 16:05:33 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-07 16:05:36 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-07 16:05:36 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301
+2018-09-07 16:05:36 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301是否包含期望值：http://192.168.10.202/group/submitOrder.html?type=edit
+2018-09-07 16:05:36 [common.LoggerUtil]-[INFO] 进入确认订单信息页面
+2018-09-07 16:05:36 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="submidOrder"]
+2018-09-07 16:05:36 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="submidOrder"]]
+2018-09-07 16:05:36 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="pay"]/div[1]/div[1]/p
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：支付订单与期望值：支付订单相同
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 进入订单支付页面
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentBtn"]
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentBtn"]]
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 打开支付界面
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="orderId"]
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：6与期望值：0相同
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[1]/input
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[2]/input
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[3]/input
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[4]/input
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[5]/input
+2018-09-07 16:05:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[6]/input
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[1]/input]
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[2]/input]
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[3]/input]
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[4]/input]
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[5]/input]
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[6]/input]
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 支付密码填写成功
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[3]/button[2]
+2018-09-07 16:05:42 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[3]/button[2]]
+2018-09-07 16:05:43 [common.LoggerUtil]-[INFO] 回到团购订单页面
+2018-09-07 16:05:43 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-07 16:05:46 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[1]/p[1]/span[2]
+2018-09-07 16:05:46 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：订单号：MGRN201809071077413511与期望值：订单号：MGRN201809071077413511相同
+2018-09-07 16:05:46 [common.LoggerUtil]-[INFO] 团购下单成功
+2018-09-07 16:05:46 [common.LoggerUtil]-[INFO] -------ui test end-------
+2018-09-07 16:05:46 [common.LoggerUtil]-[INFO] -------ui test begin-------
+2018-09-07 16:05:46 [common.LoggerUtil]-[INFO] 团购下单脚本开始
+2018-09-07 16:05:46 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]]
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/personalCenter.html
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html与期望值：http://192.168.10.202/personalCenter.html相同
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 进入我的中心页面
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a]
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/personalCenter.html#!paperboardOrder
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html#!paperboardOrder与期望值：http://192.168.10.202/personalCenter.html#!paperboardOrder相同
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 进入纸板团购订单页面
+2018-09-07 16:05:47 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:49 [common.LoggerUtil]-[INFO] 进入纸板团购全部订单页面
+2018-09-07 16:05:49 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:51 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]
+2018-09-07 16:05:51 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]]
+2018-09-07 16:05:51 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:53 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:05:55 [common.LoggerUtil]-[INFO] 进入订单详情页面
+2018-09-07 16:05:55 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/h2/span
+2018-09-07 16:05:55 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：方舒一日游与期望值：方舒一日游相同
+2018-09-07 16:05:55 [common.LoggerUtil]-[INFO] 进入再下一单界面，产品名称是<方舒一日游>
+2018-09-07 16:05:55 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div[4]/a[2]
+2018-09-07 16:05:56 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: /html/body/div[2]/div[4]/a[2]]
+2018-09-07 16:05:56 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-07 16:05:59 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-07 16:05:59 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301
+2018-09-07 16:05:59 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301是否包含期望值：http://192.168.10.202/group/submitOrder.html?type=edit
+2018-09-07 16:05:59 [common.LoggerUtil]-[INFO] 进入确认订单信息页面
+2018-09-07 16:05:59 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="submidOrder"]
+2018-09-07 16:05:59 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="submidOrder"]]
+2018-09-07 16:05:59 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="pay"]/div[1]/div[1]/p
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：支付订单与期望值：支付订单相同
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 进入订单支付页面
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentBtn"]
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentBtn"]]
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 打开支付界面
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="orderId"]
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：6与期望值：0相同
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[1]/input
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[2]/input
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[3]/input
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[4]/input
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[5]/input
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[1]/div[6]/input
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[1]/input]
+2018-09-07 16:06:04 [common.LoggerUtil]-[INFO] 元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[2]/input]
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[3]/input]
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[4]/input]
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[5]/input]
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[6]/input]
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 支付密码填写成功
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="paymentPassword"]/div[3]/button[2]
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (598917f17db4ff85f8b4de535f44d5ec)] -> xpath: //*[@id="paymentPassword"]/div[3]/button[2]]
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 回到团购订单页面
+2018-09-07 16:06:05 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-07 16:06:08 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[1]/p[1]/span[2]
+2018-09-07 16:06:08 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：订单号：MGRN201809071077455350与期望值：订单号：MGRN201809071077455350相同
+2018-09-07 16:06:08 [common.LoggerUtil]-[INFO] 团购下单成功
+2018-09-07 16:06:08 [common.LoggerUtil]-[INFO] -------ui test end-------
+2018-09-07 16:06:10 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
+2018-09-07 16:06:13 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-07 16:06:14 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.170/
+2018-09-07 16:06:15 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-07 16:06:15 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:06:17 [common.LoggerUtil]-[INFO] 点击crm登录窗口
+2018-09-07 16:06:17 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[10]/div[2]/div[3]/ul/li[1]
+2018-09-07 16:06:17 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+2018-09-07 16:06:17 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-07 16:06:19 [common.LoggerUtil]-[INFO] 输入用户名
+2018-09-07 16:06:19 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 元素赋值内容：1000000，元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="username"]]
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 输入密码
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="password"]]
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 点击登录
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-zhanghao"]/div[7]/button
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+2018-09-07 16:06:20 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-07 16:06:25 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/
+2018-09-07 16:06:25 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?与期望值：http://192.168.10.201/?相同
+2018-09-07 16:06:25 [common.LoggerUtil]-[INFO] 登录crm系统成功
+2018-09-07 16:06:25 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-07 16:06:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-07 16:06:33 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-07 16:06:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-07 16:06:33 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-07 16:06:33 [common.LoggerUtil]-[INFO] 点击销售管理
+2018-09-07 16:06:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-07 16:06:34 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-07 16:06:34 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="menu"]/div/ul/li/ul/li[3]]
+2018-09-07 16:06:34 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-07 16:06:34 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/home/sell/lineSendIntergral
+2018-09-07 16:06:34 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/home/sell/lineSendIntergral是否包含期望值：/sell/lineSendIntergral
+2018-09-07 16:06:34 [common.LoggerUtil]-[INFO] 进入线下送积分页面
+2018-09-07 16:06:34 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-07 16:06:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="uploadFile"]
+2018-09-07 16:06:39 [common.LoggerUtil]-[INFO] 文件输入框设置成可见
+2018-09-07 16:06:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="uploadFile"]
+2018-09-07 16:06:40 [common.LoggerUtil]-[INFO] 元素赋值内容：C:\Users\admin\git\uiweb-ui\resources\积分模板.xlsx，元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="uploadFile"]]
+2018-09-07 16:06:40 [common.LoggerUtil]-[INFO] 文件添加成功
+2018-09-07 16:06:40 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="lineSendIntergral-warp"]/div[3]
+2018-09-07 16:06:40 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-07 16:06:48 [common.LoggerUtil]-[INFO] 成功导入调整积分文档
+2018-09-07 16:06:48 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-07 16:06:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-07 16:06:56 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-07 16:06:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 点击销售管理
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 进入销售管理导航
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="menu"]/div/ul/li/ul/li[3]]
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/home/sell/lineSendIntergral
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/home/sell/lineSendIntergral是否包含期望值：/sell/lineSendIntergral
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 进入线下送积分页面
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/home/sell/lineSendIntergral
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/home/sell/lineSendIntergral/audit
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?oncetoken=4ad09fa6-518a-48de-808f-b9756ff07849#/home/sell/lineSendIntergral/audit是否包含期望值：/sell/lineSendIntergral/audit
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 进入调整积分文档审核页面
+2018-09-07 16:06:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[2]/div/div[1]/input
+2018-09-07 16:06:58 [common.LoggerUtil]-[INFO] 元素赋值内容：超级管理员，元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[2]/div/div[1]/input]
+2018-09-07 16:06:58 [common.LoggerUtil]-[INFO] 选择上传用户：超级管理员
+2018-09-07 16:06:58 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[4]/button
+2018-09-07 16:06:59 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[4]/button]
+2018-09-07 16:06:59 [common.LoggerUtil]-[INFO] 点击查询
+2018-09-07 16:06:59 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[1]/div/div[3]/div/div[3]/table/tbody/tr[1]/td[8]/div/div/button
+2018-09-07 16:06:59 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="intergralAudit-warp"]/div[1]/div/div[3]/div/div[3]/table/tbody/tr[1]/td[8]/div/div/button]
+2018-09-07 16:06:59 [common.LoggerUtil]-[INFO] 点击审核按钮
+2018-09-07 16:06:59 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[3]/div[2]
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 进入审核窗口
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[3]/div[2]/div[1]/div[3]/table/tbody/tr/td[2]/div
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：18868196139与期望值：18868196139相同
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 审核excel内容正确展示
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[3]/div[2]/div[2]/div/button[1]
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: //*[@id="intergralAudit-warp"]/div[3]/div[2]/div[2]/div/button[1]]
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 点击审核
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[3]/button[2]
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9538b8f27d782c77d26daab4fb4c3049)] -> xpath: /html/body/div[3]/div/div[3]/button[2]]
+2018-09-07 16:07:00 [common.LoggerUtil]-[INFO] 确认审核
+2018-09-07 16:07:01 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
 >>>>>>> origin/uifss
