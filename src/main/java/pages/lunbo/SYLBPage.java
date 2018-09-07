@@ -28,7 +28,7 @@ public class SYLBPage extends CrmHomePage{
 	private String sylb = "//*[@id=\"menu\"]/div/ul/li[6]/ul/li[1]";
 	private String title = "//*[@id=\"tHeader\"]";
 	private String add = "//*[@id=\"home\"]/div[2]/div/div/div/div[2]/div[5]/button[1]";
-	private String input = "//*[@id=\"home\"]/div[2]/div/div/div/div[3]/div[1]/div[1]/div/div[2]/div[1]/div/div/input";
+	private String input = "//*[@id=\"home\"]/div[2]/div/div/div/div[3]/div[1]/div[1]/div/div[2]/div[3]/div/div[1]/input";
 	
 	private String webType = "//*[@id=\"home\"]/div[2]/div/div/div/div[3]/div[1]/div[1]/div/div[2]/div[3]/div/div[1]/i";
 	private String choice = "body > div.el-select-dropdown > div > div.el-select-dropdown__wrap.el-scrollbar__wrap > ul > li";

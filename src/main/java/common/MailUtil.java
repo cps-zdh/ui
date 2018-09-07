@@ -144,8 +144,7 @@ public class MailUtil {
                 // 发送信件  
                 Transport transport = session.getTransport("smtp");  
                 transport.connect(username, password);
-                transport.sendMessage(msg,  
-                        msg.getRecipients(Message.RecipientType.TO));  
+                transport.sendMessage(msg,msg.getRecipients(Message.RecipientType.TO));  
                 transport.close();  
                 return true;  
             } else {  

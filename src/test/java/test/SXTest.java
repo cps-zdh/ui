@@ -16,10 +16,12 @@ import pages.xiaoshou.XXSJFPage;
  * @date 2018年8月29日 下午4:17:04
  */
 public class SXTest extends BaseTest{
-	CrmLoginPage loginPage = new CrmLoginPage();
-	XXSJFPage xxsjfPage = new XXSJFPage();
+	CrmLoginPage loginPage=null;
+	XXSJFPage xxsjfPage=null;
 	@BeforeClass
 	public void init() throws InterruptedException {
+		loginPage = new CrmLoginPage();
+		xxsjfPage = new XXSJFPage();
 		ShotListener.driver = loginPage.driver;
 		loginPage.login();
 	}
@@ -30,7 +32,7 @@ public class SXTest extends BaseTest{
 	 * @param arr
 	 * @return
 	 */
-	@Test(description="上传线下送积分模板",priority=0,enabled=false)
+	@Test(description="上传线下送积分模板",priority=0,enabled=true)
 	public void sendJFFile() {
 		try {
 			xxsjfPage.toXXSJF();
