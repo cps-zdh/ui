@@ -4,6 +4,7 @@
   <test name="cps-ui自动化测试">
     <classes>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- 广告管理 -->
       <!-- <class name="test.GGGLTest"/>
       <class name="test.TGTest"></class>
@@ -21,6 +22,13 @@
 	     <!--  <class name="test.PriceProgramTest"></class>
 	      <class name="test.JFSCTest"></class>
 	      <class name="test.ProductTest"></class> -->
+>>>>>>> origin/uifss
+=======
+     	<class name="test.TGTest"></class>
+	    <class name="test.SXTest"></class>
+	     <!--  <class name="test.PriceProgramTest"></class>
+	     <class name="test.JFSCTest"></class>
+	     <class name="test.ProductTest"></class> -->
 >>>>>>> origin/uifss
     </classes>
   </test> <!-- Test -->
