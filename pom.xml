@@ -68,16 +68,6 @@
 				</configuration>
 			</plugin>
   		
-  		 <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.1</version>
-            <configuration>
-                <source>1.8</source><!-- 源代码开发版本 -->
-                <target>1.8</target><!-- java编译版本 -->
-                <encoding>UTF8</encoding> <!-- 项目的编码 -->
-            </configuration>
-        </plugin>
   		
   		<!-- 监听 -->
 
