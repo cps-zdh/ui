@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 06 11:28:40 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56019 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TGTest.tuangou_xiadan()'><b>tuangou_xiadan</b><br>Test class: test.TGTest<br>Test method: 团购下单<br/>
+<a href="#Output-20853837" onClick='toggleBox("Output-20853837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20853837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20853837">
+-------ui test begin-------<br/>
+团购下单脚本开始<br/>
+获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]]<br/>
+确认脚本运行当前路径与期盼路径一致性<br/>
+浏览器当前页面url是：http://192.168.10.202/personalCenter.html<br/>
+断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html与期望值：http://192.168.10.202/personalCenter.html相同<br/>
+进入我的中心页面<br/>
+获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a]<br/>
+确认脚本运行当前路径与期盼路径一致性<br/>
+浏览器当前页面url是：http://192.168.10.202/personalCenter.html#!paperboardOrder<br/>
+断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html#!paperboardOrder与期望值：http://192.168.10.202/personalCenter.html#!paperboardOrder相同<br/>
+进入纸板团购订单页面<br/>
+页面强制等待：2000毫秒<br/>
+进入纸板团购全部订单页面<br/>
+页面强制等待：2000毫秒<br/>
+获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]]<br/>
+页面强制等待：2000毫秒<br/>
+页面强制等待：2000毫秒<br/>
+进入订单详情页面<br/>
+获取网页元素：/html/body/div[2]/h2/span<br/>
+断言验证：验证页面元素实际值：方舒一日游与期望值：方舒一日游相同<br/>
+进入再下一单界面，产品名称是<方舒一日游><br/>
+获取网页元素：/html/body/div[2]/div[4]/a[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[2]/div[4]/a[2]]<br/>
+页面强制等待：3000毫秒<br/>
+确认脚本运行当前路径与期盼路径是否为包含关系<br/>
+浏览器当前页面url是：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301<br/>
+断言验证：验证页面元素实际值：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301是否包含期望值：http://192.168.10.202/group/submitOrder.html?type=edit<br/>
+进入确认订单信息页面<br/>
+获取网页元素：//*[@id="submidOrder"]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="submidOrder"]]<br/>
+页面强制等待：5000毫秒<br/>
+获取网页元素：//*[@id="pay"]/div[1]/div[1]/p<br/>
+断言验证：验证页面元素实际值：支付订单与期望值：支付订单相同<br/>
+进入订单支付页面<br/>
+获取网页元素：//*[@id="paymentBtn"]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentBtn"]]<br/>
+打开支付界面<br/>
+获取网页元素：//*[@id="orderId"]<br/>
+断言验证：验证页面元素实际值：6与期望值：0相同<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[1]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[2]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[3]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[4]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[5]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[6]/input<br/>
+元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[1]/input]<br/>
+元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[2]/input]<br/>
+元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[3]/input]<br/>
+元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[4]/input]<br/>
+元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[5]/input]<br/>
+元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[6]/input]<br/>
+支付密码填写成功<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[3]/button[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[3]/button[2]]<br/>
+回到团购订单页面<br/>
+页面强制等待：3000毫秒<br/>
+获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[1]/p[1]/span[2]<br/>
+断言验证：验证页面元素实际值：订单号：MGRN201809061077154388与期望值：订单号：MGRN201809061077154388相同<br/>
+团购下单成功<br/>
+-------ui test end-------<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>test.TGTest@2b91004a</td></tr>
+<tr>
+<td title='test.TGTest.tuangou_xiadan()'><b>tuangou_xiadan</b><br>Test class: test.TGTest<br>Test method: 团购下单<br/>
+<a href="#Output-1946988038" onClick='toggleBox("Output-1946988038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1946988038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1946988038">
+-------ui test begin-------<br/>
+团购下单脚本开始<br/>
+获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]]<br/>
+确认脚本运行当前路径与期盼路径一致性<br/>
+浏览器当前页面url是：http://192.168.10.202/personalCenter.html<br/>
+断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html与期望值：http://192.168.10.202/personalCenter.html相同<br/>
+进入我的中心页面<br/>
+获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a]<br/>
+确认脚本运行当前路径与期盼路径一致性<br/>
+浏览器当前页面url是：http://192.168.10.202/personalCenter.html#!paperboardOrder<br/>
+断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html#!paperboardOrder与期望值：http://192.168.10.202/personalCenter.html#!paperboardOrder相同<br/>
+进入纸板团购订单页面<br/>
+页面强制等待：2000毫秒<br/>
+进入纸板团购全部订单页面<br/>
+页面强制等待：2000毫秒<br/>
+获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[2]/div[5]/div[1]/div/div[2]/ul[2]/li[6]/a[2]]<br/>
+页面强制等待：2000毫秒<br/>
+页面强制等待：2000毫秒<br/>
+进入订单详情页面<br/>
+获取网页元素：/html/body/div[2]/h2/span<br/>
+断言验证：验证页面元素实际值：方舒一日游与期望值：方舒一日游相同<br/>
+进入再下一单界面，产品名称是<方舒一日游><br/>
+获取网页元素：/html/body/div[2]/div[4]/a[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: /html/body/div[2]/div[4]/a[2]]<br/>
+页面强制等待：3000毫秒<br/>
+确认脚本运行当前路径与期盼路径是否为包含关系<br/>
+浏览器当前页面url是：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301<br/>
+断言验证：验证页面元素实际值：http://192.168.10.202/group/submitOrder.html?type=edit&infokeyarea=3301是否包含期望值：http://192.168.10.202/group/submitOrder.html?type=edit<br/>
+进入确认订单信息页面<br/>
+获取网页元素：//*[@id="submidOrder"]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="submidOrder"]]<br/>
+页面强制等待：5000毫秒<br/>
+获取网页元素：//*[@id="pay"]/div[1]/div[1]/p<br/>
+断言验证：验证页面元素实际值：支付订单与期望值：支付订单相同<br/>
+进入订单支付页面<br/>
+获取网页元素：//*[@id="paymentBtn"]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentBtn"]]<br/>
+打开支付界面<br/>
+获取网页元素：//*[@id="orderId"]<br/>
+断言验证：验证页面元素实际值：6与期望值：0相同<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[1]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[2]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[3]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[4]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[5]/input<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[1]/div[6]/input<br/>
+元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[1]/input]<br/>
+元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[2]/input]<br/>
+元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[3]/input]<br/>
+元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[4]/input]<br/>
+元素赋值内容：1，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[5]/input]<br/>
+元素赋值内容：2，元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[1]/div[6]/input]<br/>
+支付密码填写成功<br/>
+获取网页元素：//*[@id="paymentPassword"]/div[3]/button[2]<br/>
+点击页面元素：[[ChromeDriver: chrome on XP (f1a31db2a9be67e0222ab5705acdeac6)] -> xpath: //*[@id="paymentPassword"]/div[3]/button[2]]<br/>
+回到团购订单页面<br/>
+页面强制等待：3000毫秒<br/>
+获取网页元素：/html/body/div[2]/div[5]/div[1]/div/div[1]/p[1]/span[2]<br/>
+断言验证：验证页面元素实际值：订单号：MGRN201809061077719618与期望值：订单号：MGRN201809061077719618相同<br/>
+团购下单成功<br/>
+-------ui test end-------<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>test.TGTest@2b91004a</td></tr>
+</table><p>
+</body>
+</html>
