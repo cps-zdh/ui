@@ -31,7 +31,7 @@ public class TGTest extends BaseTest{
 		}
 	}
 	
-	@Test(description="团购下单",invocationCount=2)
+	@Test(description="团购下单",invocationCount=3)
 	public void tuangou_xiadan() {
 		begin();
 		LoggerUtil.info("团购下单脚本开始");
