@@ -23438,3 +23438,39 @@ Session ID: 598917f17db4ff85f8b4de535f44d5ec
 2018-09-10 11:06:11 [common.LoggerUtil]-[INFO] 确认审核
 2018-09-10 11:06:12 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
 >>>>>>> origin/uifss
+2018-09-11 15:17:09 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-11 15:17:12 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.202/group/grouponHome.html
+2018-09-11 15:17:13 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-11 15:17:13 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-11 15:17:15 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[1]
+2018-09-11 15:17:17 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (7e794398528303e927f74cdaf95f37ca)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[1]]
+2018-09-11 15:17:17 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-11 15:17:17 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/login.html?redirectURL=http%3A%2F%2F192.168.10.202%2Fgroup%2FgrouponHome.html
+2018-09-11 15:17:17 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/login.html?redirectURL=http%3A%2F%2F192.168.10.202%2Fgroup%2FgrouponHome.html与期望值：http://192.168.10.202/login.html?redirectURL=http%3A%2F%2F192.168.10.202%2Fgroup%2FgrouponHome.html相同
+2018-09-11 15:17:17 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-11 15:17:17 [common.LoggerUtil]-[INFO] 元素赋值内容：18868196139，元素：[[ChromeDriver: chrome on XP (7e794398528303e927f74cdaf95f37ca)] -> xpath: //*[@id="username"]]
+2018-09-11 15:17:17 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-11 15:17:18 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (7e794398528303e927f74cdaf95f37ca)] -> xpath: //*[@id="password"]]
+2018-09-11 15:17:18 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-button"]
+2018-09-11 15:17:18 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (7e794398528303e927f74cdaf95f37ca)] -> xpath: //*[@id="login-button"]]
+2018-09-11 15:17:18 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-11 15:17:20 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[1]
+2018-09-11 15:17:20 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：fsss果实企业与期望值：fsss果实企业相同
+2018-09-11 15:17:20 [common.LoggerUtil]-[INFO] 成功登录团购平台，用户名：18868196139
+2018-09-11 15:17:20 [common.LoggerUtil]-[INFO] -------ui test begin-------
+2018-09-11 15:17:20 [common.LoggerUtil]-[INFO] 团购下单脚本开始
+2018-09-11 15:17:20 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]
+2018-09-11 15:17:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (7e794398528303e927f74cdaf95f37ca)] -> xpath: /html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[1]/span[2]]
+2018-09-11 15:17:21 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-11 15:17:21 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/personalCenter.html
+2018-09-11 15:17:21 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html与期望值：http://192.168.10.202/personalCenter.html相同
+2018-09-11 15:17:21 [common.LoggerUtil]-[INFO] 进入我的中心页面
+2018-09-11 15:17:21 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a
+2018-09-11 15:17:22 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (7e794398528303e927f74cdaf95f37ca)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]/ul/li[1]/a]
+2018-09-11 15:17:22 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径一致性
+2018-09-11 15:17:22 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.202/personalCenter.html#!paperboardOrder
+2018-09-11 15:17:22 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.202/personalCenter.html#!paperboardOrder与期望值：http://192.168.10.202/personalCenter.html#!paperboardOrder相同
+2018-09-11 15:17:22 [common.LoggerUtil]-[INFO] 进入纸板团购订单页面
+2018-09-11 15:17:22 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-11 15:17:24 [common.LoggerUtil]-[INFO] 进入纸板团购全部订单页面
+2018-09-11 15:17:24 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
