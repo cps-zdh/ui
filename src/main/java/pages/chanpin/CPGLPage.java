@@ -18,9 +18,9 @@ public class CPGLPage extends BasePage{
 	 * 省、市、合作方选项
 	 */
 	private String provice="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input";
-	private String proviceOption="/html/body/div[2]/div/div[1]/ul/li[1]";
+	private String proviceOption="/html/body/div[2]/div/div[1]/ul/li[3]";
 	private String city="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input";
-	private String cityOption="/html/body/div[3]/div/div[1]/ul/li";
+	private String cityOption="/html/body/div[3]/div/div[1]/ul/li[2]";
 	private String partner="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input";
 	private String partnerOption="/html/body/div[4]/div/div[1]/ul/li[1]/span";
 	private String addButton="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/button";
@@ -28,9 +28,9 @@ public class CPGLPage extends BasePage{
 	 * 新增菜单
 	 */
 	private String xsqyOfInput="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input";
-	private String xsqyOfZheJiang="/html/body/div[2]/div/div[1]/ul/li[3]";
+	private String xsqyOfZheJiang="/html/body/div[5]/div/div[1]/ul/li";
 	private String xsqyOfInput2="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div[1]/input";
-	private String xsqyOfWenZhou="/html/body/div[3]/div/div[1]/ul/li[2]";
+	private String xsqyOfWenZhou="/html/body/div[6]/div/div[1]/ul/li";
 	private String scmc="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[1]/div/input";
 	private String tjhy="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[1]/div/input";
 	private String cpmc="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[2]/div/input";

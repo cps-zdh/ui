@@ -23474,3 +23474,697 @@ Session ID: 598917f17db4ff85f8b4de535f44d5ec
 2018-09-11 15:17:22 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
 2018-09-11 15:17:24 [common.LoggerUtil]-[INFO] 进入纸板团购全部订单页面
 2018-09-11 15:17:24 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:13:46 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-12 18:13:48 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.170/
+2018-09-12 18:13:49 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-12 18:13:49 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:13:51 [common.LoggerUtil]-[INFO] 点击crm登录窗口
+2018-09-12 18:13:51 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[10]/div[2]/div[3]/ul/li[1]
+2018-09-12 18:13:51 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+2018-09-12 18:13:51 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:13:53 [common.LoggerUtil]-[INFO] 输入用户名
+2018-09-12 18:13:53 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 元素赋值内容：1000000，元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="username"]]
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 输入密码
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="password"]]
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 点击登录
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-zhanghao"]/div[7]/button
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+2018-09-12 18:13:54 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:13:59 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=b5bff130-5c64-4a06-917a-0edf784e87af#/
+2018-09-12 18:13:59 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?与期望值：http://192.168.10.201/?相同
+2018-09-12 18:13:59 [common.LoggerUtil]-[INFO] 登录crm系统成功
+2018-09-12 18:13:59 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:13:59 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:14:07 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:14:07 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:14:07 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:14:08 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:14:08 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:14:08 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:14:08 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:14:08 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:14:08 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:14:09 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:14:09 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:14:09 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:14:14 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:14:14 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:14:14 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:14:16 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]
+2018-09-12 18:14:17 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]]
+2018-09-12 18:14:17 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:14:17 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:14:17 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:14:19 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li
+2018-09-12 18:14:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[3]/div/div[1]/ul/li]
+2018-09-12 18:14:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:14:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:14:20 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:14:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:14:20 [common.LoggerUtil]-[INFO] 开始新增产品...
+2018-09-12 18:14:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button
+2018-09-12 18:14:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button]
+2018-09-12 18:14:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input
+2018-09-12 18:14:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input]
+2018-09-12 18:14:21 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:14:23 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[3]
+2018-09-12 18:14:24 [common.LoggerUtil]-[ERROR] 元素点击出现异常：
+element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 106 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-096T9GN', ip: '172.16.1.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\djcps\AppData\Local\Temp\scoped_dir24452_12625}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1df80189ad9bbe0a4afab9e54025b3d4
+2018-09-12 18:14:24 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:14:24 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912181424.png已保存
+2018-09-12 18:14:46 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912181445.png已保存
+2018-09-12 18:15:07 [common.LoggerUtil]-[INFO] >>>>用例失败，开始重试第1次
+2018-09-12 18:15:07 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:15:07 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:15:15 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:15:15 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:15:15 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:15:16 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:15:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:15:22 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:15:22 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:15:24 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]
+2018-09-12 18:15:24 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]]
+2018-09-12 18:15:24 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:15:25 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:15:25 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:15:27 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li
+2018-09-12 18:15:27 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[3]/div/div[1]/ul/li]
+2018-09-12 18:15:27 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:15:28 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:15:28 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:15:28 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:15:28 [common.LoggerUtil]-[INFO] 开始新增产品...
+2018-09-12 18:15:28 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button
+2018-09-12 18:15:29 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button]
+2018-09-12 18:15:29 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input
+2018-09-12 18:15:30 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input]
+2018-09-12 18:15:30 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:15:32 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[3]
+2018-09-12 18:15:32 [common.LoggerUtil]-[ERROR] 元素点击出现异常：
+element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-096T9GN', ip: '172.16.1.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\djcps\AppData\Local\Temp\scoped_dir24452_12625}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1df80189ad9bbe0a4afab9e54025b3d4
+2018-09-12 18:15:32 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:15:32 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912181532.png已保存
+2018-09-12 18:15:54 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912181553.png已保存
+2018-09-12 18:16:15 [common.LoggerUtil]-[INFO] >>>>用例失败，开始重试第2次
+2018-09-12 18:16:15 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:16:15 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:16:23 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:16:23 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:16:23 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:16:23 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:16:23 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:16:23 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:16:23 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:16:24 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:16:24 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:16:24 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:16:24 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:16:24 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:16:29 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:16:30 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:16:30 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:16:32 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]
+2018-09-12 18:16:32 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]]
+2018-09-12 18:16:32 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:16:32 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:16:32 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:16:34 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li
+2018-09-12 18:16:35 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[3]/div/div[1]/ul/li]
+2018-09-12 18:16:35 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:16:35 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:16:35 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:16:35 [common.LoggerUtil]-[ERROR] 获取网页元素失败：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:16:35 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:16:36 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912181635.png已保存
+2018-09-12 18:16:57 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912181657.png已保存
+2018-09-12 18:17:18 [common.LoggerUtil]-[INFO] 修改产品脚本开始
+2018-09-12 18:17:18 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:17:26 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:17:26 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:17:26 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:17:27 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:17:27 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:17:27 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:17:27 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:17:28 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:17:28 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:17:28 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:17:28 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:17:28 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:17:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:17:34 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:17:34 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:17:36 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]
+2018-09-12 18:17:36 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]]
+2018-09-12 18:17:36 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:17:37 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:17:37 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:17:39 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li
+2018-09-12 18:17:39 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[3]/div/div[1]/ul/li]
+2018-09-12 18:17:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:17:40 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:17:40 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:17:40 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:17:40 [common.LoggerUtil]-[INFO] 开始编辑产品
+2018-09-12 18:17:40 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-12 18:17:43 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[3]
+2018-09-12 18:17:44 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[3]]
+2018-09-12 18:17:44 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[4]/div[2]/div/input
+2018-09-12 18:17:45 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试（编辑），元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[4]/div[2]/div/input]
+2018-09-12 18:17:45 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[8]/button[2]/span
+2018-09-12 18:17:45 [common.LoggerUtil]-[ERROR] 元素点击出现异常：
+unknown error: Element <span>...</span> is not clickable at point (110, 593). Other element would receive the click: <ul class="el-menu el-menu-vertical-demo" style="">...</ul>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 361 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-096T9GN', ip: '172.16.1.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\djcps\AppData\Local\Temp\scoped_dir24452_12625}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1df80189ad9bbe0a4afab9e54025b3d4
+2018-09-12 18:17:45 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:17:46 [common.LoggerUtil]-[INFO] 本地失败截图testUpdateProduct_0912181745.png已保存
+2018-09-12 18:18:07 [common.LoggerUtil]-[INFO] 本地失败截图testUpdateProduct_0912181807.png已保存
+2018-09-12 18:18:28 [common.LoggerUtil]-[INFO] >>>>用例失败，开始重试第1次
+2018-09-12 18:18:28 [common.LoggerUtil]-[INFO] 修改产品脚本开始
+2018-09-12 18:18:28 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:18:36 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:18:37 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:18:37 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:18:38 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:18:38 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:18:38 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:18:38 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:18:39 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:18:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:18:39 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:18:39 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:18:39 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:18:44 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:18:45 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:18:45 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:18:47 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]
+2018-09-12 18:18:47 [common.LoggerUtil]-[ERROR] 元素点击出现异常：
+element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 116 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-096T9GN', ip: '172.16.1.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\djcps\AppData\Local\Temp\scoped_dir24452_12625}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1df80189ad9bbe0a4afab9e54025b3d4
+2018-09-12 18:18:47 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:18:47 [common.LoggerUtil]-[INFO] 本地失败截图testUpdateProduct_0912181847.png已保存
+2018-09-12 18:19:09 [common.LoggerUtil]-[INFO] 本地失败截图testUpdateProduct_0912181908.png已保存
+2018-09-12 18:19:30 [common.LoggerUtil]-[INFO] >>>>用例失败，开始重试第2次
+2018-09-12 18:19:30 [common.LoggerUtil]-[INFO] 修改产品脚本开始
+2018-09-12 18:19:30 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:19:38 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:19:38 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:19:38 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:19:39 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:19:39 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:19:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:19:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:19:39 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:19:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:19:40 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:19:40 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:19:40 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:19:45 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:19:45 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:19:45 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:19:47 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]
+2018-09-12 18:19:48 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]]
+2018-09-12 18:19:48 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:19:48 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:19:48 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:19:50 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li
+2018-09-12 18:19:51 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[3]/div/div[1]/ul/li]
+2018-09-12 18:19:51 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:19:52 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:19:52 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:19:53 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:19:53 [common.LoggerUtil]-[INFO] 开始编辑产品
+2018-09-12 18:19:53 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-12 18:19:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[3]
+2018-09-12 18:19:56 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-12 18:19:57 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[3]]
+2018-09-12 18:19:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[4]/div[2]/div/input
+2018-09-12 18:19:58 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.170/
+2018-09-12 18:19:59 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-12 18:19:59 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:20:00 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试（编辑），元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[4]/div[2]/div/input]
+2018-09-12 18:20:00 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[8]/button[2]/span
+2018-09-12 18:20:00 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[8]/button[2]/span]
+2018-09-12 18:20:00 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:20:01 [common.LoggerUtil]-[INFO] 点击crm登录窗口
+2018-09-12 18:20:01 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[10]/div[2]/div[3]/ul/li[1]
+2018-09-12 18:20:02 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+2018-09-12 18:20:02 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:20:02 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[5]/div
+2018-09-12 18:20:02 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：自动化测试（编辑）与期望值：自动化测试（编辑）相同
+2018-09-12 18:20:02 [common.LoggerUtil]-[INFO] 编辑产品成功
+2018-09-12 18:20:02 [common.LoggerUtil]-[INFO] 删除产品脚本开始
+2018-09-12 18:20:02 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:20:04 [common.LoggerUtil]-[INFO] 输入用户名
+2018-09-12 18:20:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-12 18:20:04 [common.LoggerUtil]-[INFO] 元素赋值内容：1000000，元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="username"]]
+2018-09-12 18:20:04 [common.LoggerUtil]-[INFO] 输入密码
+2018-09-12 18:20:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-12 18:20:05 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="password"]]
+2018-09-12 18:20:05 [common.LoggerUtil]-[INFO] 点击登录
+2018-09-12 18:20:05 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-zhanghao"]/div[7]/button
+2018-09-12 18:20:05 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+2018-09-12 18:20:05 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:20:10 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=1eadd27c-995d-4b38-bf35-23970c5eb2c1#/
+2018-09-12 18:20:10 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?与期望值：http://192.168.10.201/?相同
+2018-09-12 18:20:10 [common.LoggerUtil]-[INFO] 登录crm系统成功
+2018-09-12 18:20:10 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:20:10 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:20:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:20:11 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:20:11 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:20:12 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:20:12 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:20:12 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:20:13 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:20:14 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:20:14 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:20:15 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:20:15 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:20:15 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:20:18 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:20:19 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:20:19 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:20:19 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:20:19 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:20:19 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:20:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:20:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:20:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:20:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:20:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:20:20 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:20:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:20:21 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:20:21 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:20:22 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[1]
+2018-09-12 18:20:23 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[1]]
+2018-09-12 18:20:23 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:20:23 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:20:23 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:20:25 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li
+2018-09-12 18:20:26 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[3]/div/div[1]/ul/li]
+2018-09-12 18:20:26 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:20:26 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:20:26 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:20:26 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:20:27 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:20:27 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:20:27 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:20:27 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-12 18:20:29 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[3]
+2018-09-12 18:20:29 [common.LoggerUtil]-[ERROR] 获取网页元素失败：/html/body/div[4]/div/div[1]/ul/li[3]
+2018-09-12 18:20:29 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:20:29 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182029.png已保存
+2018-09-12 18:20:30 [common.LoggerUtil]-[INFO] 开始删除产品
+2018-09-12 18:20:30 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[4]
+2018-09-12 18:20:31 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[4]]
+2018-09-12 18:20:31 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/button[2]/span
+2018-09-12 18:20:31 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/button[2]/span]
+2018-09-12 18:20:31 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:20:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[5]/div
+2018-09-12 18:20:33 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：[[ChromeDriver: chrome on XP (1df80189ad9bbe0a4afab9e54025b3d4)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[5]/div]与期望值：自动化测试（编辑）相同
+2018-09-12 18:20:33 [common.LoggerUtil]-[INFO] 删除产品成功
+2018-09-12 18:20:35 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
+2018-09-12 18:20:51 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182050.png已保存
+2018-09-12 18:21:12 [common.LoggerUtil]-[INFO] >>>>用例失败，开始重试第1次
+2018-09-12 18:21:12 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:21:12 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:21:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:21:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:21:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:21:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:21:21 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:21:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:21:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:21:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:21:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:21:22 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:21:22 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:21:22 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:21:27 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:21:27 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:21:27 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:21:29 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[3]
+2018-09-12 18:21:29 [common.LoggerUtil]-[ERROR] 获取网页元素失败：/html/body/div[4]/div/div[1]/ul/li[3]
+2018-09-12 18:21:29 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:21:29 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182129.png已保存
+2018-09-12 18:21:51 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182150.png已保存
+2018-09-12 18:22:12 [common.LoggerUtil]-[INFO] >>>>用例失败，开始重试第2次
+2018-09-12 18:22:12 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:22:12 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:22:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:22:20 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:22:20 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:22:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:22:21 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:22:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:22:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:22:22 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:22:22 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:22:22 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:22:22 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:22:22 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:22:27 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:22:28 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (1db261b344dace36b355a46f40dc727a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:22:28 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:22:30 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[3]
+2018-09-12 18:22:30 [common.LoggerUtil]-[ERROR] 获取网页元素失败：/html/body/div[4]/div/div[1]/ul/li[3]
+2018-09-12 18:22:30 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:22:30 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182230.png已保存
+2018-09-12 18:22:52 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182251.png已保存
+2018-09-12 18:23:13 [common.LoggerUtil]-[INFO] 修改产品脚本开始
+2018-09-12 18:23:13 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:23:42 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-12 18:23:44 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.170/
+2018-09-12 18:23:45 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-12 18:23:45 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:23:47 [common.LoggerUtil]-[INFO] 点击crm登录窗口
+2018-09-12 18:23:47 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[10]/div[2]/div[3]/ul/li[1]
+2018-09-12 18:23:47 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+2018-09-12 18:23:47 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:23:49 [common.LoggerUtil]-[INFO] 输入用户名
+2018-09-12 18:23:49 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-12 18:23:49 [common.LoggerUtil]-[INFO] 元素赋值内容：1000000，元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="username"]]
+2018-09-12 18:23:49 [common.LoggerUtil]-[INFO] 输入密码
+2018-09-12 18:23:49 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-12 18:23:50 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="password"]]
+2018-09-12 18:23:50 [common.LoggerUtil]-[INFO] 点击登录
+2018-09-12 18:23:50 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-zhanghao"]/div[7]/button
+2018-09-12 18:23:50 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+2018-09-12 18:23:50 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:23:55 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=542a39db-6407-4b38-a0a1-3d140f747699#/
+2018-09-12 18:23:55 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?与期望值：http://192.168.10.201/?相同
+2018-09-12 18:23:55 [common.LoggerUtil]-[INFO] 登录crm系统成功
+2018-09-12 18:23:55 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:23:55 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:24:03 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:24:03 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:24:03 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:24:03 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:24:03 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:24:03 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:24:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:24:04 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:24:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:24:05 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:24:05 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:24:05 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:24:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:24:10 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:24:10 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:24:12 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[3]
+2018-09-12 18:24:13 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[3]]
+2018-09-12 18:24:13 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:24:13 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:24:13 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:24:15 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li[2]
+2018-09-12 18:24:15 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: /html/body/div[3]/div/div[1]/ul/li[2]]
+2018-09-12 18:24:15 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:24:16 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:24:16 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:24:16 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:24:16 [common.LoggerUtil]-[INFO] 开始新增产品...
+2018-09-12 18:24:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button
+2018-09-12 18:24:17 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button]
+2018-09-12 18:24:17 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input
+2018-09-12 18:24:18 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input]
+2018-09-12 18:24:18 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:24:20 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[6]/div/div[1]/ul/li
+2018-09-12 18:24:20 [common.LoggerUtil]-[ERROR] 获取网页元素失败：/html/body/div[6]/div/div[1]/ul/li
+2018-09-12 18:24:20 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:24:20 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182420.png已保存
+2018-09-12 18:24:41 [common.LoggerUtil]-[INFO] 本地失败截图testAddProduct_0912182441.png已保存
+2018-09-12 18:25:02 [common.LoggerUtil]-[INFO] 修改产品脚本开始
+2018-09-12 18:25:02 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:25:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:25:11 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:25:11 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:25:12 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:25:12 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:25:12 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:25:12 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:25:12 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:25:12 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:25:13 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:25:13 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:25:13 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:25:18 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:25:19 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:25:19 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:25:21 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[3]
+2018-09-12 18:25:21 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[3]]
+2018-09-12 18:25:21 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:25:22 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:25:22 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:25:24 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li[2]
+2018-09-12 18:25:24 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: /html/body/div[3]/div/div[1]/ul/li[2]]
+2018-09-12 18:25:24 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:25:25 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:25:25 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:25:25 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (edb5b858f03ffc049196e6e20221e521)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:25:25 [common.LoggerUtil]-[INFO] 开始编辑产品
+2018-09-12 18:25:25 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-12 18:25:28 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[3]
+2018-09-12 18:25:28 [common.LoggerUtil]-[ERROR] 元素点击出现异常：
+element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 104 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-096T9GN', ip: '172.16.1.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\djcps\AppData\Local\Temp\scoped_dir26304_23653}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: edb5b858f03ffc049196e6e20221e521
+2018-09-12 18:25:28 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：false与期望值：true相同
+2018-09-12 18:25:29 [common.LoggerUtil]-[INFO] 本地失败截图testUpdateProduct_0912182528.png已保存
+2018-09-12 18:25:50 [common.LoggerUtil]-[INFO] 本地失败截图testUpdateProduct_0912182550.png已保存
+2018-09-12 18:26:18 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-12 18:26:19 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.170/
+2018-09-12 18:26:20 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-12 18:26:20 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:26:22 [common.LoggerUtil]-[INFO] 点击crm登录窗口
+2018-09-12 18:26:22 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[10]/div[2]/div[3]/ul/li[1]
+2018-09-12 18:26:23 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+2018-09-12 18:26:23 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 输入用户名
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 元素赋值内容：1000000，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="username"]]
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 输入密码
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="password"]]
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 点击登录
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-zhanghao"]/div[7]/button
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+2018-09-12 18:26:25 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:26:30 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=a95e1ce9-acff-4c38-a2c3-460c8ad0f5f1#/
+2018-09-12 18:26:30 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?与期望值：http://192.168.10.201/?相同
+2018-09-12 18:26:30 [common.LoggerUtil]-[INFO] 登录crm系统成功
+2018-09-12 18:26:30 [common.LoggerUtil]-[INFO] 新增产品脚本开始
+2018-09-12 18:26:30 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:26:38 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:26:39 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:26:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:26:39 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:26:39 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:26:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:26:39 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:26:40 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:26:40 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:26:40 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:26:40 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:26:40 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:26:45 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:26:46 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:26:46 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:26:48 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[3]
+2018-09-12 18:26:48 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[3]]
+2018-09-12 18:26:48 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:26:48 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:26:48 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:26:50 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li[2]
+2018-09-12 18:26:51 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[3]/div/div[1]/ul/li[2]]
+2018-09-12 18:26:51 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:26:52 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:26:52 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:26:52 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:26:52 [common.LoggerUtil]-[INFO] 开始新增产品...
+2018-09-12 18:26:52 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button
+2018-09-12 18:26:53 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/button]
+2018-09-12 18:26:53 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input
+2018-09-12 18:26:53 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input]
+2018-09-12 18:26:53 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:26:55 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[5]/div/div[1]/ul/li
+2018-09-12 18:26:56 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[5]/div/div[1]/ul/li]
+2018-09-12 18:26:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div[1]/input
+2018-09-12 18:26:56 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div[1]/input]
+2018-09-12 18:26:56 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[6]/div/div[1]/ul/li
+2018-09-12 18:26:56 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[6]/div/div[1]/ul/li]
+2018-09-12 18:26:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[1]/div/input
+2018-09-12 18:26:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[1]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[2]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[2]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[3]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[4]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[4]/div[1]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[6]/div[1]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[5]/div[1]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[6]/div[2]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[5]/div[2]/div/input
+2018-09-12 18:26:57 [common.LoggerUtil]-[INFO] 输入产品信息
+2018-09-12 18:26:58 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试用，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[1]/div/input]
+2018-09-12 18:26:58 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[1]/div/input]
+2018-09-12 18:26:59 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试（新增），元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[2]/div/input]
+2018-09-12 18:27:00 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[2]/div/input]
+2018-09-12 18:27:00 [common.LoggerUtil]-[INFO] 元素赋值内容：100，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[3]/div/input]
+2018-09-12 18:27:01 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[4]/div/input]
+2018-09-12 18:27:02 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[4]/div[1]/div/input]
+2018-09-12 18:27:03 [common.LoggerUtil]-[INFO] 元素赋值内容：123，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[6]/div[1]/div/input]
+2018-09-12 18:27:03 [common.LoggerUtil]-[INFO] 元素赋值内容：100，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[5]/div[1]/div/input]
+2018-09-12 18:27:04 [common.LoggerUtil]-[INFO] 元素赋值内容：123，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[6]/div[2]/div/input]
+2018-09-12 18:27:04 [common.LoggerUtil]-[INFO] 元素赋值内容：100，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[5]/div[2]/div/input]
+2018-09-12 18:27:04 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[3]/div/input
+2018-09-12 18:27:04 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[3]/div/input]
+2018-09-12 18:27:04 [common.LoggerUtil]-[INFO] 页面强制等待：1000毫秒
+2018-09-12 18:27:05 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[7]/div[2]/button[2]
+2018-09-12 18:27:06 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[7]/div[2]/button[2]]
+2018-09-12 18:27:06 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[5]/div/div/div[1]/input
+2018-09-12 18:27:06 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[5]/div/div/div[1]/input]
+2018-09-12 18:27:06 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[8]/div/div[1]/ul/li[1]
+2018-09-12 18:27:07 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[8]/div/div[1]/ul/li[1]]
+2018-09-12 18:27:07 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[4]/div[2]/div/div[1]/input
+2018-09-12 18:27:07 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[4]/div[2]/div/div[1]/input]
+2018-09-12 18:27:07 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[9]/div/div[1]/ul/li[1]
+2018-09-12 18:27:08 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[9]/div/div[1]/ul/li[1]]
+2018-09-12 18:27:08 [common.LoggerUtil]-[INFO] 开始上传图片...
+2018-09-12 18:27:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[7]/div/div[2]/div/input
+2018-09-12 18:27:10 [common.LoggerUtil]-[INFO] 元素赋值内容：C:\Users\djcps\git\ui1\image\sun1.png，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[7]/div/div[2]/div/input]
+2018-09-12 18:27:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[8]/div[2]/div/input
+2018-09-12 18:27:11 [common.LoggerUtil]-[INFO] 元素赋值内容：C:\Users\djcps\git\ui1\image\sun2.png，元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[8]/div[2]/div/input]
+2018-09-12 18:27:11 [common.LoggerUtil]-[INFO] 上传图片成功
+2018-09-12 18:27:11 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-12 18:27:14 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[9]/button[2]/span
+2018-09-12 18:27:14 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[9]/button[2]/span]
+2018-09-12 18:27:14 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:27:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[5]/div
+2018-09-12 18:27:16 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：自动化测试（新增）与期望值：自动化测试（新增）相同
+2018-09-12 18:27:16 [common.LoggerUtil]-[INFO] 新增产品成功
+2018-09-12 18:27:16 [common.LoggerUtil]-[INFO] 修改产品脚本开始
+2018-09-12 18:27:16 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:27:24 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:27:25 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:27:25 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:27:25 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:27:25 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:27:25 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:27:25 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:27:26 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:27:26 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:27:26 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:27:26 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:27:26 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:27:31 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:27:31 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:27:31 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:27:33 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[3]
+2018-09-12 18:27:34 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[3]]
+2018-09-12 18:27:34 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:27:34 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:27:34 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:27:36 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li[2]
+2018-09-12 18:27:37 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[3]/div/div[1]/ul/li[2]]
+2018-09-12 18:27:37 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:27:37 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:27:37 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:27:38 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:27:38 [common.LoggerUtil]-[INFO] 开始编辑产品
+2018-09-12 18:27:38 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-12 18:27:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[3]
+2018-09-12 18:27:41 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[3]]
+2018-09-12 18:27:41 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[4]/div[2]/div/input
+2018-09-12 18:27:43 [common.LoggerUtil]-[INFO] 元素赋值内容：自动化测试（编辑），元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[4]/div[2]/div/input]
+2018-09-12 18:27:43 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[8]/button[2]/span
+2018-09-12 18:27:43 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[8]/button[2]/span]
+2018-09-12 18:27:43 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:27:45 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[5]/div
+2018-09-12 18:27:45 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：自动化测试（编辑）与期望值：自动化测试（编辑）相同
+2018-09-12 18:27:45 [common.LoggerUtil]-[INFO] 编辑产品成功
+2018-09-12 18:27:45 [common.LoggerUtil]-[INFO] 删除产品脚本开始
+2018-09-12 18:27:45 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-12 18:27:53 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[2]
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="header"]/ul/li[2]]
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 进入产品管理
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:27:54 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li[2]/span
+2018-09-12 18:27:55 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="menu"]/div/ul/li[2]/span]
+2018-09-12 18:27:55 [common.LoggerUtil]-[INFO] 进入子菜单产品管理
+2018-09-12 18:27:55 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-12 18:28:00 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input
+2018-09-12 18:28:00 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input]
+2018-09-12 18:28:00 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:28:02 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[2]/div/div[1]/ul/li[3]
+2018-09-12 18:28:03 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[2]/div/div[1]/ul/li[3]]
+2018-09-12 18:28:03 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input
+2018-09-12 18:28:03 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input]
+2018-09-12 18:28:03 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:28:05 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[1]/ul/li[2]
+2018-09-12 18:28:06 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[3]/div/div[1]/ul/li[2]]
+2018-09-12 18:28:06 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input
+2018-09-12 18:28:06 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input]
+2018-09-12 18:28:06 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[4]/div/div[1]/ul/li[1]/span
+2018-09-12 18:28:06 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: /html/body/div[4]/div/div[1]/ul/li[1]/span]
+2018-09-12 18:28:06 [common.LoggerUtil]-[INFO] 页面强制等待：3000毫秒
+2018-09-12 18:28:09 [common.LoggerUtil]-[INFO] 开始删除产品
+2018-09-12 18:28:09 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[4]
+2018-09-12 18:28:10 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[11]/div/div[4]]
+2018-09-12 18:28:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/button[2]/span
+2018-09-12 18:28:10 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div/button[2]/span]
+2018-09-12 18:28:10 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-12 18:28:12 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[5]/div
+2018-09-12 18:28:12 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：[[ChromeDriver: chrome on XP (43048816929af61b6ee727344ef1d00a)] -> xpath: //*[@id="home"]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[5]/div]与期望值：自动化测试（编辑）相同
+2018-09-12 18:28:12 [common.LoggerUtil]-[INFO] 删除产品成功
+2018-09-12 18:28:13 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
