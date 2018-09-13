@@ -15,7 +15,7 @@ import common.LoggerUtil;
 public class RetryListener implements IRetryAnalyzer{
 	
 	private int retrycount = 0;
-	private int maxRetryCount = 2;
+	private int maxRetryCount = 0;
 
 	public boolean retry(ITestResult result) {
 		if(retrycount < maxRetryCount) {

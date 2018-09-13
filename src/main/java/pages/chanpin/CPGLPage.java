@@ -18,19 +18,19 @@ public class CPGLPage extends BasePage{
 	 * 省、市、合作方选项
 	 */
 	private String provice="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[1]/div/div[1]/input";
-	private String proviceOption="/html/body/div[2]/div/div[1]/ul/li[1]";
+	private String proviceOption="/html/body/div[2]/div/div[1]/ul/li[3]";
 	private String city="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[1]/input";
-	private String cityOption="/html/body/div[3]/div/div[1]/ul/li";
+	private String cityOption="/html/body/div[3]/div/div[1]/ul/li[2]";
 	private String partner="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div/div[1]/input";
-	private String partnerOption="/html/body/div[4]/div/div[1]/ul/li/span";
+	private String partnerOption="/html/body/div[4]/div/div[1]/ul/li[1]/span";
 	private String addButton="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[2]/div[1]/button";
 	/**
 	 * 新增菜单
 	 */
 	private String xsqyOfInput="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/input";
-	private String xsqyOfBeijing="/html/body/div[5]/div/div[1]/ul/li[1]";
+	private String xsqyOfZheJiang="/html/body/div[5]/div/div[1]/ul/li";
 	private String xsqyOfInput2="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div[1]/input";
-	private String xsqyOfBeijing2="/html/body/div[6]/div/div[1]/ul/li";
+	private String xsqyOfWenZhou="/html/body/div[6]/div/div[1]/ul/li";
 	private String scmc="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[1]/div/input";
 	private String tjhy="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[6]/div[1]/div/input";
 	private String cpmc="//*[@id=\"home\"]/div[2]/div/div/div[1]/div[3]/div[1]/div/div[2]/div/div[5]/div[2]/div/input";
@@ -85,9 +85,9 @@ public class CPGLPage extends BasePage{
 		click(getElement(addButton,"x"));
 		click(getElement(xsqyOfInput,"x"));
 		sleep(2000);
-		click(getElement(xsqyOfBeijing,"x"));
+		click(getElement(xsqyOfZheJiang,"x"));
 		click(getElement(xsqyOfInput2,"x"));
-		click(getElement(xsqyOfBeijing2,"x"));
+		click(getElement(xsqyOfWenZhou,"x"));
 		List<WebElement> elements=new ArrayList<WebElement>();
 		/*String js="document.getElementById(\"train_date\").removeAttribute(\"readonly\");";
 		excuse_js(js);*/

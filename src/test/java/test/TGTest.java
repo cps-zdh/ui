@@ -31,6 +31,7 @@ public class TGTest extends BaseTest{
 		}
 	}
 	
+<<<<<<< HEAD
 	@Test(description="纸板团购EBC商品下单",priority=0)
 	public void zbtg_xiadan() {
 		try {
@@ -42,6 +43,9 @@ public class TGTest extends BaseTest{
 	
 	
 	@Test(description="团购下单-将上个ui新增的订单再下一单",invocationCount=2,priority=1)
+=======
+	@Test(description="团购下单",invocationCount=3)
+>>>>>>> 6143c8dafa6e8923614f0cae5572571878ef9b06
 	public void tuangou_xiadan() {
 		begin();
 		LoggerUtil.info("团购再下一单脚本开始");
