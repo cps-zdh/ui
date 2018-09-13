@@ -4,11 +4,12 @@
   <test name="cps-ui自动化测试">
     <classes>
     	<!--  -->
-     	<class name="test.TGTest"></class>
 	    <class name="test.SXTest"></class>
 	      <class name="test.PriceProgramTest"></class>
-	     <class name="test.JFSCTest"></class>
+	   	 <class name="test.CrmJFSCTest"></class>
 	     <class name="test.ProductTest"></class>
+	      <class name="test.JFSCTest"></class>
+	     <class name="test.TGTest"></class>
     </classes>
   </test> <!-- Test -->
  	<listeners>

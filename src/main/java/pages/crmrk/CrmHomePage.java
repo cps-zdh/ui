@@ -60,8 +60,32 @@ public class CrmHomePage extends BasePage{
 	private String subCpgl="//*[@id=\"menu\"]/div/ul/li[2]/span";
 	
 
-	  private String choosePriceProgram="//*[@id=\"menu\"]/div/ul/li[6]";
-	  
+    private String choosePriceProgram="//*[@id=\"menu\"]/div/ul/li[6]";
+    
+    /**
+     * 积分商城菜单
+     */
+    private String jfsc = "//*[@id=\"header\"]/ul/li[7]";
+    /**
+     * 全部商品
+     */
+    private String qbsp = "//*[@id=\"menu\"]/div/ul/li[1]/ul/li[1]";
+    
+    /**
+     * 进入积分商城-全部商品菜单
+     * @throws InterruptedException 
+     */
+	public void toJFSC() throws InterruptedException {
+		sleep(8000);
+		click(getJfsc());
+		click(getJfsc());
+		LoggerUtil.info("校验是否进入积分商城列表");
+		containUrl("/integral_shop");
+		LoggerUtil.info("进入积分商城列表");
+		LoggerUtil.info("校验是否进入全部商品页面");
+		containUrl("/integral_shop/commodity_all");
+		LoggerUtil.info("进入全部商品页面");
+	}
 	
 	/**
 	 * 进入运营管理
@@ -277,6 +301,16 @@ public class CrmHomePage extends BasePage{
 	public WebElement getXsgl() {
 		return getElement(xsgl,"x");
 	}
+
+	public WebElement getJfsc() {
+		return getElement(jfsc,"x");
+	}
+
+
+	public WebElement getQbsp() {
+		return getElement(qbsp,"x");
+	}
+
 
 
 
