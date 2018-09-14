@@ -44,7 +44,7 @@ public class TGTest extends BaseTest{
 	
 	@Test(description="团购下单-将上个ui新增的订单再下一单",invocationCount=2,priority=1)
 	public void tuangou_xiadan() {
-		//下单
+		//下单对对对
 		begin();
 		LoggerUtil.info("团购再下一单脚本开始");
 		try {
