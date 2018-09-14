@@ -27186,3 +27186,86 @@ Session ID: edb5b858f03ffc049196e6e20221e521
 2018-09-12 18:28:12 [common.LoggerUtil]-[INFO] 删除产品成功
 2018-09-12 18:28:13 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
 >>>>>>> 6143c8dafa6e8923614f0cae5572571878ef9b06
+2018-09-13 17:43:49 [common.LoggerUtil]-[INFO] 初始化chromedriver成功！
+2018-09-13 17:43:51 [common.LoggerUtil]-[INFO] 浏览器打开网页：http://192.168.10.170/
+2018-09-13 17:43:52 [common.LoggerUtil]-[INFO] 浏览器将网页最大化
+2018-09-13 17:43:52 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-13 17:43:54 [common.LoggerUtil]-[INFO] 点击crm登录窗口
+2018-09-13 17:43:54 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[10]/div[2]/div[3]/ul/li[1]
+2018-09-13 17:43:54 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: /html/body/div[10]/div[2]/div[3]/ul/li[1]]
+2018-09-13 17:43:54 [common.LoggerUtil]-[INFO] 页面强制等待：2000毫秒
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 输入用户名
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="username"]
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 元素赋值内容：1000000，元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="username"]]
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 输入密码
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="password"]
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 元素赋值内容：dj123456，元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="password"]]
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 点击登录
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="login-zhanghao"]/div[7]/button
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="login-zhanghao"]/div[7]/button]
+2018-09-13 17:43:56 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-13 17:44:01 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/
+2018-09-13 17:44:01 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?与期望值：http://192.168.10.201/?相同
+2018-09-13 17:44:01 [common.LoggerUtil]-[INFO] 登录crm系统成功
+2018-09-13 17:44:01 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-13 17:44:09 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-13 17:44:10 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-13 17:44:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-13 17:44:10 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-13 17:44:10 [common.LoggerUtil]-[INFO] 点击销售管理
+2018-09-13 17:44:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-13 17:44:10 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-13 17:44:11 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="menu"]/div/ul/li/ul/li[3]]
+2018-09-13 17:44:11 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-13 17:44:11 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/home/sell/lineSendIntergral
+2018-09-13 17:44:11 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/home/sell/lineSendIntergral是否包含期望值：/sell/lineSendIntergral
+2018-09-13 17:44:11 [common.LoggerUtil]-[INFO] 进入线下送积分页面
+2018-09-13 17:44:11 [common.LoggerUtil]-[INFO] 页面强制等待：5000毫秒
+2018-09-13 17:44:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="uploadFile"]
+2018-09-13 17:44:16 [common.LoggerUtil]-[INFO] 文件输入框设置成可见
+2018-09-13 17:44:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="uploadFile"]
+2018-09-13 17:44:16 [common.LoggerUtil]-[INFO] 元素赋值内容：C:\Users\admin\git\uiweb-ui\resources\积分模板.xlsx，元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="uploadFile"]]
+2018-09-13 17:44:16 [common.LoggerUtil]-[INFO] 文件添加成功
+2018-09-13 17:44:16 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="lineSendIntergral-warp"]/div[3]
+2018-09-13 17:44:16 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-13 17:44:24 [common.LoggerUtil]-[INFO] 成功导入调整积分文档
+2018-09-13 17:44:24 [common.LoggerUtil]-[INFO] 页面强制等待：8000毫秒
+2018-09-13 17:44:32 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-13 17:44:33 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-13 17:44:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="header"]/ul/li[3]
+2018-09-13 17:44:33 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="header"]/ul/li[3]]
+2018-09-13 17:44:33 [common.LoggerUtil]-[INFO] 点击销售管理
+2018-09-13 17:44:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-13 17:44:33 [common.LoggerUtil]-[INFO] 进入销售管理导航
+2018-09-13 17:44:33 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="menu"]/div/ul/li/ul/li[3]
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="menu"]/div/ul/li/ul/li[3]]
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/home/sell/lineSendIntergral
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/home/sell/lineSendIntergral是否包含期望值：/sell/lineSendIntergral
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 进入线下送积分页面
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/home/sell/lineSendIntergral
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 确认脚本运行当前路径与期盼路径是否为包含关系
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 浏览器当前页面url是：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/home/sell/lineSendIntergral/audit
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：http://192.168.10.201/?oncetoken=e9ab646f-1ab6-422e-85ec-0557c59164c2#/home/sell/lineSendIntergral/audit是否包含期望值：/sell/lineSendIntergral/audit
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 进入调整积分文档审核页面
+2018-09-13 17:44:34 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[2]/div/div[1]/input
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 元素赋值内容：超级管理员，元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[2]/div/div[1]/input]
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 选择上传用户：超级管理员
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[4]/button
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="intergralAudit-warp"]/div[1]/div/div[2]/ul/li[4]/button]
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 点击查询
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[1]/div/div[3]/div/div[3]/table/tbody/tr[1]/td[8]/div/div/button
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="intergralAudit-warp"]/div[1]/div/div[3]/div/div[3]/table/tbody/tr[1]/td[8]/div/div/button]
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 点击审核按钮
+2018-09-13 17:44:35 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[3]/div[2]
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 进入审核窗口
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[3]/div[2]/div[1]/div[3]/table/tbody/tr/td[2]/div
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 断言验证：验证页面元素实际值：18868196139与期望值：18868196139相同
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 审核excel内容正确展示
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 获取网页元素：//*[@id="intergralAudit-warp"]/div[3]/div[2]/div[2]/div/button[1]
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: //*[@id="intergralAudit-warp"]/div[3]/div[2]/div[2]/div/button[1]]
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 点击审核
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 获取网页元素：/html/body/div[3]/div/div[3]/button[2]
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 点击页面元素：[[ChromeDriver: chrome on XP (9a4ae97be6c25ced10a38e1b22669f91)] -> xpath: /html/body/div[3]/div/div[3]/button[2]]
+2018-09-13 17:44:36 [common.LoggerUtil]-[INFO] 确认审核
+2018-09-13 17:44:38 [common.LoggerUtil]-[INFO] 退出浏览器，退出驱动
